@@ -20,8 +20,8 @@ A terminal-style, animated multiple-choice Quiz App built with Flutter, featurin
 
 ## 🖼 Screenshots
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](image.png) ![alt text](image-1.png)
+
 
 ## 📁 File Structure
 
@@ -29,16 +29,17 @@ A terminal-style, animated multiple-choice Quiz App built with Flutter, featurin
 📂 programmer_quiz_terminal/
   └── lib/
       └── main.dart
-
-🛠 Getting Started
-Prerequisites
-Flutter SDK installed
-A working emulator or physical device
-Run the App
-flutter pub get
-flutter run
-
 ```
+
+## 🛠 Getting Started
+Prerequisites
+    Flutter SDK installed
+    A working emulator or physical device
+## Run the App
+    flutter pub get
+    flutter run
+
+
 ## 📦 Dependencies
 This app uses only core Flutter libraries:
     . material.dart
