@@ -20,7 +20,8 @@ A terminal-style, animated multiple-choice Quiz App built with Flutter, featurin
 
 ## 🖼 Screenshots
 
-*(Add screenshots here: Category selection, Quiz in progress, Results screen)*
+![alt text](image.png)
+![alt text](image-1.png)
 
 ## 📁 File Structure
 
@@ -37,23 +38,24 @@ Run the App
 flutter pub get
 flutter run
 
-📦 Dependencies
+```
+## 📦 Dependencies
 This app uses only core Flutter libraries:
+    . material.dart
+    . dart:math
+    . dart:async
+    . No external packages required.
 
-material.dart
-dart:math
-dart:async
-No external packages required.
-
-✨ Customization
+## ✨ Customization
 Want to expand the quiz?
 
-Add more questions: Include new Question objects in the _allQuestions list within main.dart.
-Add new categories: Add the category name to CategoryPage.categories, define its icon/color in CategoryPage._categoryData, and ensure new questions use the exact category name.
-Adjust difficulty/time: Modify the timeLeft initial value or question selection logic.
-Enhance persistence: Integrate shared_preferences or a local database to track high scores.
-🧑‍💻 Author
+    Add more questions: Include new Question objects in the _allQuestions list within main.dart.
+    Add new categories: Add the category name to CategoryPage.categories, define its icon/color in CategoryPage._categoryData, and ensure new questions use the exact category name.
+    Adjust difficulty/time: Modify the timeLeft initial value or question selection logic.
+    Enhance persistence: Integrate shared_preferences or a local database to track high scores.
+
+## 🧑‍💻 Author
 Built as a Flutter project – feel free to customize and expand!
 
-📄 License
+## 📄 License
 This project is open-source and available under the MIT License.
